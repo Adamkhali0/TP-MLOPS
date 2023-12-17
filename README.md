@@ -57,9 +57,7 @@ L'objectif de ce projet est d'analyser la performance de Twitter sur le marché 
 - Ouvrez un navigateur et accédez à Prometheus sur le port 9090.
 - Pour Grafana, accédez au port 3000. Utilisez "admin" comme nom d'utilisateur et "grafana" comme mot de passe.
 
-## Surveillance des Métriques
 
-- Une fois dans Grafana, vous pouvez choisir les métriques à suivre, comme `not_survived_total` et `survived_total`.
 
 # Accès aux Containers et Ports
 
