@@ -61,5 +61,17 @@ L'objectif de ce projet est d'analyser la performance de Twitter sur le marché 
 
 - Une fois dans Grafana, vous pouvez choisir les métriques à suivre, comme `not_survived_total` et `survived_total`.
 
-En suivant ces étapes, vous serez en mesure de configurer et de surveiller efficacement votre application de prédiction de crises cardiaques, en utilisant Docker pour la gestion des conteneurs, Prometheus pour la surveillance des métriques, et Grafana pour la visualisation des données.
+# Accès aux Containers et Ports
+
+Maintenant, vous avez accès à ces trois conteneurs et à leurs ports respectifs :
+
+- **Prometheus:** [http://localhost:9090/](http://localhost:9090/)
+- **Grafana:** [http://localhost:3000/](http://localhost:3000/)
+- **FastAPI:** [http://localhost:8000/](http://localhost:8000/)
+
+## Identifiants :
+
+- **Nom d'utilisateur :** admin
+- **Mot de passe :** admin
+
 
