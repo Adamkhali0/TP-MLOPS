@@ -31,8 +31,7 @@ L'objectif de ce projet est d'analyser la performance de Twitter sur le marché 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Création de l'Image Docker pour l'API de Prédiction de Crise Cardiaque
-
+# Création de l'Image Docker pour l'API de Prédiction de la Valeur de l'Action à la Fin de la Journée
 1. Ouvrez un terminal et naviguez jusqu'au dossier de votre projet.
 2. Exécutez la commande suivante pour construire l'image Docker :
     ```bash
