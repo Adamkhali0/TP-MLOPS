@@ -36,7 +36,7 @@ L'objectif de ce projet est d'analyser la performance de Twitter sur le marché 
 1. Ouvrez un terminal et naviguez jusqu'au dossier de votre projet.
 2. Exécutez la commande suivante pour construire l'image Docker :
     ```bash
-    docker build -t heart_attack_prediction_api .
+    docker build -t api_TSM.py .
     ```
 
 ## Démarrage de l'Application en Mode Développement
