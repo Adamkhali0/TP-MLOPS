@@ -28,7 +28,10 @@ La data contient :
   
 L'objectif de ce projet est d'analyser la performance de Twitter sur le marché boursier au cours de la période de 2013 à 2022, et predire en mettant en évidence les événements clés de cette période.
 )
---------------------------------------------------------------------------------------------------------------------------------------------------------------------# Création de l'Image Docker pour l'API de Prédiction de Crise Cardiaque
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Création de l'Image Docker pour l'API de Prédiction de Crise Cardiaque
 
 1. Ouvrez un terminal et naviguez jusqu'au dossier de votre projet.
 2. Exécutez la commande suivante pour construire l'image Docker :
