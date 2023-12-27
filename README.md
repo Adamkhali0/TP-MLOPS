@@ -6,11 +6,6 @@ The project was made by : KHALI Mohammed Adam ,LAABYDY Mohamed :)
 ![225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9](https://github.com/Adamkhali0/TP-TDLOG/assets/118823327/2b4d03ca-0eb6-4e42-8f5b-d188fa1f5bdd)
 # TWITTER STOCK MARKET ![241765460-cc4fe88c-7f7a-41d8-b449-34b7a178c1c6](https://github.com/Adamkhali0/TP-TDLOG/assets/118823327/422c48e3-cc6c-4229-a29f-5ccdcfcbb916)
 
-MLOps
-This project was created by: KHALI Mohammed Adam, LAABYDY Mohamed :)
-
-225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9
-
 TWITTER STOCK MARKET 241765460-cc4fe88c-7f7a-41d8-b449-34b7a178c1c6
 Twitter was founded in 2006 and went public in 2013. Since the inception of Twitter, the year 2022 has been a memorable event for the platform. When Elon Musk took control of Twitter, it was delisted from the New York Stock Exchange. As 2022 has been so eventful for Twitter, let's analyze the complete timeline of Twitter on the stock market from 2013 to 2022.
 
