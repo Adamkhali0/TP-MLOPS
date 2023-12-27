@@ -6,67 +6,63 @@ The project was made by : KHALI Mohammed Adam ,LAABYDY Mohamed :)
 ![225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9](https://github.com/Adamkhali0/TP-TDLOG/assets/118823327/2b4d03ca-0eb6-4e42-8f5b-d188fa1f5bdd)
 # TWITTER STOCK MARKET ![241765460-cc4fe88c-7f7a-41d8-b449-34b7a178c1c6](https://github.com/Adamkhali0/TP-TDLOG/assets/118823327/422c48e3-cc6c-4229-a29f-5ccdcfcbb916)
 
-Twitter a été fondé en 2006 et a été coté en bourse en 2013. Depuis la fondation de Twitter, l'année 2022 a été un événement mémorable pour Twitter. Lorsque Elon Musk a pris le contrôle de Twitter, il a été retiré de la Bourse de New York. Comme 2022 a été si mouvementée pour Twitter, analysons la chronologie complète de Twitter sur le marché boursier de 2013 à 2022.
+MLOps
+This project was created by: KHALI Mohammed Adam, LAABYDY Mohamed :)
 
-Twitter est l'une des applications de médias sociaux populaires où les gens partagent ce qu'ils ressentent en un nombre limité de mots. Twitter est populaire, mais pas en bourse.
+225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9
 
-La data contient :
+TWITTER STOCK MARKET 241765460-cc4fe88c-7f7a-41d8-b449-34b7a178c1c6
+Twitter was founded in 2006 and went public in 2013. Since the inception of Twitter, the year 2022 has been a memorable event for the platform. When Elon Musk took control of Twitter, it was delisted from the New York Stock Exchange. As 2022 has been so eventful for Twitter, let's analyze the complete timeline of Twitter on the stock market from 2013 to 2022.
 
-  Date
+Twitter is one of the popular social media applications where people share their thoughts in a limited number of words. Twitter is popular but not on the stock market.
 
-  The opening Price of the day
+The data includes:
 
-  The highest price of the day
-
-  The lowest price of the day
-
-  The closing price of the day
-
-  The adjusted closing price of the day
-
-  The total number of shares traded in the day (volume)
-  
-L'objectif de ce projet est d'analyser la performance de Twitter sur le marché boursier au cours de la période de 2013 à 2022, et predire en mettant en évidence les événements clés de cette période.
-)
-
+Date
+The opening price of the day
+The highest price of the day
+The lowest price of the day
+The closing price of the day
+The adjusted closing price of the day
+The total number of shares traded in the day (volume)
+The goal of this project is to analyze the performance of Twitter on the stock market during the period from 2013 to 2022 and predict by highlighting the key events of this period.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Création de l'Image Docker pour l'API de Prédiction de la Valeur de l'Action à la Fin de la Journée
-1. Ouvrez un terminal et naviguez jusqu'au dossier de votre projet.
-2. Exécutez la commande suivante pour construire l'image Docker :
+# Creating Docker Image for the API Predicting Stock Value at the End of the Day
+1. Open a terminal and navigate to your project folder.
+2. Execute the following command to build the Docker image:
     ```bash
     docker build -t api_TSM.py .
     ```
 
-## Démarrage de l'Application en Mode Développement
+## Starting the Application in Development Mode
 
-- Pour un débogage facile, il est recommandé de démarrer l'application via votre IDE (PyCharm ou VSCode).
+- For easy debugging, it is recommended to start the application via your IDE (PyCharm or VSCode).
+## Starting Prometheus and Grafana
 
-## Démarrage de Prometheus et Grafana
-
-1. Exécutez la commande suivante pour démarrer Prometheus et Grafana :
+1. Execute the following command to start Prometheus and Grafana:
     ```bash
     docker compose up -d
     ```
 
-2. Cette configuration est prête à fonctionner avec l'application lancée en mode développement.
+2. This configuration is ready to work with the application launched in development mode.
 
-## Accès à Prometheus et Grafana
+## Accessing Prometheus and Grafana
 
-- Ouvrez un navigateur et accédez à Prometheus sur le port 9090.
-- Pour Grafana, accédez au port 3000. Utilisez "admin" comme nom d'utilisateur et "grafana" comme mot de passe.
+- Open a browser and access Prometheus on port 9090.
+- For Grafana, access port 3000. Use "admin" as the username and "grafana" as the password.
 
 
 
-# Accès aux Containers et Ports
+# Access to Containers and Ports
 
-Maintenant, vous avez accès à ces trois conteneurs et à leurs ports respectifs :
+Now, you have access to these three containers and their respective ports:
 
 - **Prometheus:** [http://localhost:9090/](http://localhost:9090/)
 - **Grafana:** [http://localhost:3000/](http://localhost:3000/)
 - **FastAPI:** [http://localhost:8000/](http://localhost:8000/)
 
-## Identifiants :
+## Credentials:
 
 - **Nom d'utilisateur :** admin
 - **Mot de passe :** admin
